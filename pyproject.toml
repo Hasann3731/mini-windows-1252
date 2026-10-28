@@ -1,0 +1,14 @@
+[project]
+name = "mini-windows-1252"
+version = "0.1.0"
+description = "Pure Python Windows-1252 codec mapping all 256 byte values to Unicode"
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
